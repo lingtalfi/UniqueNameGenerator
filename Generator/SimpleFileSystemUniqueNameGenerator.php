@@ -1,6 +1,6 @@
 <?php
 
-namespace UniqueNameGenerator\Generator;
+namespace Ling\UniqueNameGenerator\Generator;
 
 /*
  * LingTalfi 2016-01-07
@@ -37,7 +37,7 @@ namespace UniqueNameGenerator\Generator;
  * 
  * 
  */
-use Bat\FileSystemTool;
+use Ling\Bat\FileSystemTool;
 
 class SimpleFileSystemUniqueNameGenerator extends AbstractFileSystemUniqueNameGenerator
 {

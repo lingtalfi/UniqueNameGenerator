@@ -1,6 +1,6 @@
 <?php
 
-namespace UniqueNameGenerator\Generator;
+namespace Ling\UniqueNameGenerator\Generator;
 
 /*
  * LingTalfi 2017-02-21

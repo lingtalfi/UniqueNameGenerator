@@ -15,7 +15,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import UniqueNameGenerator
+uni import Ling/UniqueNameGenerator
 ```
 
 
@@ -36,7 +36,7 @@ Example with files
 ```php
 <?php
 
-use UniqueNameGenerator\Generator\SimpleFileSystemUniqueNameGenerator;
+use Ling\UniqueNameGenerator\Generator\SimpleFileSystemUniqueNameGenerator;
 
 require_once "bigbang.php";
 
@@ -57,7 +57,7 @@ Example with names
 ```php
 <?php
 
-use UniqueNameGenerator\Generator\ItemUniqueNameGenerator;
+use Ling\UniqueNameGenerator\Generator\ItemUniqueNameGenerator;
 
 require_once "bigbang.php";
 
@@ -102,7 +102,7 @@ For instance to emulate the first of the above examples, we can do this:
 ```php
 <?php
 
-use UniqueNameGenerator\Generator\SimpleFileSystemUniqueNameGenerator;
+use Ling\UniqueNameGenerator\Generator\SimpleFileSystemUniqueNameGenerator;
 
 require_once "bigbang.php";
 
